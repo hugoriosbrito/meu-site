@@ -41,7 +41,7 @@ function populateNavigationMenu() {
     
     // Atualizar logo - removendo o nome e deixando apenas "Portfólio"
     const logoText = document.getElementById('nav-logo-text');
-    logoText.textContent = 'Portfólio';
+    logoText.textContent = '';
     
     // Criar menu de navegação
     const menuItems = [

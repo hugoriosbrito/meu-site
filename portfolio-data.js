@@ -10,9 +10,9 @@ const portfolioData = {
         title: "Desenvolvedor Python & Analista de Dados",
         description: "Especialista em desenvolvimento de soluções para análise de dados e automação, com foco em projetos para o setor público e controle de fraudes.",
         location: "Bahia, Brasil",
-        email: "hugo.rios.brito@email.com", // ALTERE AQUI SEU EMAIL
+        email: "hugoba532@gmail.com", 
         github: "https://github.com/hugoriosbrito",
-        linkedin: "https://linkedin.com/in/hugoriosbrito" // ALTERE AQUI SEU LINKEDIN
+        linkedin: "https://linkedin.com/in/hugoriosbrito" 
     },
 
     // SEÇÃO SOBRE MIM
@@ -54,14 +54,14 @@ const portfolioData = {
             name: "Sistema de Matriz de Seletividade (SMS-TCM)",
             description: "Sistema para gerenciar indicadores em uma matriz de seletividade, habilitando ou desabilitando-os para recalcular e formar um ranking de municípios com riscos de fraudes.",
             github: "https://github.com/hugoriosbrito/Sistema-de-Matriz-de-Seletividade-SMS-TCM",
-            demo: "", // Adicione link da demo se houver
+            demo: "", 
             technologies: ["HTML", "Python", "Jupyter Notebook"]
         },
         {
             name: "Math Function to STL",
             description: "Aplicação interativa desenvolvida com Streamlit que permite criar modelos 3D sólidos no formato .stl a partir de funções matemáticas para impressão 3D.",
             github: "https://github.com/hugoriosbrito/Math-Function-To-STL",
-            demo: "", // Adicione link da demo se houver
+            demo: "math-to-stl.streamlit.app", 
             technologies: ["Python", "Streamlit", "3D Modeling"]
         },
         {
