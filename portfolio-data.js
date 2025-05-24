@@ -55,6 +55,7 @@ const portfolioData = {
             description: "Sistema para gerenciar indicadores em uma matriz de seletividade, habilitando ou desabilitando-os para recalcular e formar um ranking de municípios com riscos de fraudes.",
             github: "https://github.com/hugoriosbrito/Sistema-de-Matriz-de-Seletividade-SMS-TCM",
             demo: "", 
+            demo: "", 
             technologies: ["HTML", "Python", "Jupyter Notebook"]
         },
         {
