@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Hugo Rios Brito - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" id="nav-logo-text">Hugo Rios Brito</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-name">Hugo Rios Brito</h1>
+                <h2 id="hero-title">Desenvolvedor Python & Analista de Dados</h2>
+                <p id="hero-description">Especialista em desenvolvimento de soluções para análise de dados e automação, com foco em projetos para o setor público e controle de fraudes.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" id="btn-projects">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-contact">Contato</a>
+                </div>
+                <div class="social-links" id="social-links">
+                    <!-- Social links will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" id="about-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text" id="about-text">
+                    <!-- About text will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" id="experience-title">Experiência Profissional</h2>
+            <div class="timeline" id="timeline">
+                <!-- Timeline items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" id="projects-title">Projetos em Destaque</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" id="skills-title">Habilidades Técnicas</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skill categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" id="certifications-title">Certificações</h2>
+            <div class="certifications-grid" id="certifications-grid">
+                <!-- Certifications will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info" id="contact-info">
+                    <!-- Contact info will be populated by JavaScript -->
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn-send">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p id="footer-text">&copy; 2025 Hugo Rios Brito. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
