@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -48,6 +48,7 @@ body {
     font-weight: 700;
     color: #2c3e50;
     text-decoration: none;
+    display: none;
 }
 
 .nav-menu {
