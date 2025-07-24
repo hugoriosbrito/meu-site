@@ -55,14 +55,13 @@ const portfolioData = {
             description: "Sistema para gerenciar indicadores em uma matriz de seletividade, habilitando ou desabilitando-os para recalcular e formar um ranking de municípios com riscos de fraudes.",
             github: "https://github.com/hugoriosbrito/Sistema-de-Matriz-de-Seletividade-SMS-TCM",
             demo: "", 
-            demo: "", 
             technologies: ["HTML", "Python", "Jupyter Notebook"]
         },
         {
             name: "Math Function to STL",
             description: "Aplicação interativa desenvolvida com Streamlit que permite criar modelos 3D sólidos no formato .stl a partir de funções matemáticas para impressão 3D.",
             github: "https://github.com/hugoriosbrito/Math-Function-To-STL",
-            demo: "math-to-stl.streamlit.app", 
+            demo: "https://math-to-stl.streamlit.app", 
             technologies: ["Python", "Streamlit", "3D Modeling"]
         },
         {
